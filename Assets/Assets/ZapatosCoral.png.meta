@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 96ebc4bb9a52b864eb7a728468f9d642
+guid: 45b3e7ded2f04b945b21eede2f3be959
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 325440641546151924
-    second: Credits_0
+      213: 7840417599114123355
+    second: ZapatosCoral_0
+  - first:
+      213: -8156844452087207437
+    second: ZapatosCoral_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +116,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Credits_0
+      name: ZapatosCoral_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 474
+        y: 36
+        width: 1165
+        height: 319
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f765da0a82348400800000000000000
-      internalID: 325440641546151924
+      spriteID: b581bed1442cecc60800000000000000
+      internalID: 7840417599114123355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZapatosCoral_1
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 41
+        width: 403
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9e93900311dce80800000000000000
+      internalID: -8156844452087207437
       vertices: []
       indices: 
       edges: []
@@ -138,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: afa1ed9612a83184a8542c677662a050
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Credits_0: 325440641546151924
+      ZapatosCoral_0: 7840417599114123355
+      ZapatosCoral_1: -8156844452087207437
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

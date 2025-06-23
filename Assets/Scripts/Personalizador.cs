@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class Personalizador : MonoBehaviour
 {
-    public GameObject rojoPrefab;
-    public GameObject azulPrefab;
+    public GameObject rojoObjeto;
+    public GameObject azulObjeto;
+
     public Transform puntoColocacion;
 
     private GameObject objetoSeleccionado;
@@ -11,23 +12,43 @@ public class Personalizador : MonoBehaviour
 
     public void SeleccionarRojo()
     {
-        objetoSeleccionado = rojoPrefab;
+        objetoSeleccionado = rojoObjeto;
     }
 
     public void SeleccionarAzul()
     {
-        objetoSeleccionado = azulPrefab;
+        objetoSeleccionado = azulObjeto;
     }
 
     public void ColocarObjeto()
     {
         if (objetoColocado != null)
-            Destroy(objetoColocado);
+        {
+            objetoColocado.SetActive(false);
+        }
 
         if (objetoSeleccionado != null)
         {
-            objetoColocado = Instantiate(objetoSeleccionado, puntoColocacion.position, Quaternion.identity, puntoColocacion);
+            objetoSeleccionado.SetActive(true);
+
+            // Posición base
+            Vector3 posicion = puntoColocacion.position;
+
+            // Offset específico para azul
+            if (objetoSeleccionado == azulObjeto)
+            {
+                posicion.y += 0.6f; // Ajustá este valor según tu escena
+            }
+
+            objetoSeleccionado.transform.position = posicion;
+
+            objetoColocado = objetoSeleccionado;
         }
     }
 }
+
+
+
+
+
 

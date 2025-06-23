@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 96ebc4bb9a52b864eb7a728468f9d642
+guid: 6b37e4d041aa1eb43a58be07543bc592
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 325440641546151924
-    second: Credits_0
+      213: -1222449890238447134
+    second: ZapatosMorados_0
+  - first:
+      213: -1516689053697368115
+    second: ZapatosMorados_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +116,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Credits_0
+      name: ZapatosMorados_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 470
+        y: 36
+        width: 1182
+        height: 320
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f765da0a82348400800000000000000
-      internalID: 325440641546151924
+      spriteID: 2e14f983d4cf80fe0800000000000000
+      internalID: -1222449890238447134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZapatosMorados_1
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 40
+        width: 404
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf15a76753a3fae0800000000000000
+      internalID: -1516689053697368115
       vertices: []
       indices: 
       edges: []
@@ -138,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 64dd0de351ef05a489ac266ee54e939d
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Credits_0: 325440641546151924
+      ZapatosMorados_0: -1222449890238447134
+      ZapatosMorados_1: -1516689053697368115
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
