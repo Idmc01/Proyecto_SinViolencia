@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7126672292455824947}
   - component: {fileID: 2693024102750608065}
   m_Layer: 0
-  m_Name: celeste
+  m_Name: blusaC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
