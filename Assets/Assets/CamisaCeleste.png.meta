@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CamisaCeleste_0: 2870373619869907784
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sombrero_0: 3864017203719355072
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
